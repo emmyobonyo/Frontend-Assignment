@@ -1,0 +1,119 @@
+.top__navigation {
+  width: 90%;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+}
+
+.social__media__container {
+  width: 40%;
+}
+
+.search__icon {
+  width: 31px;
+  height: 31px;
+  right: 5px;
+  top: 7px;
+}
+
+.search__input {
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  border: none;
+}
+
+::placeholder {
+  color: black;
+}
+
+.contact__us {
+  font-weight: bold;
+  color: #e39426;
+}
+
+.tiny__border__bottom {
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  top: 25px;
+  left: 1px;
+}
+
+.hanburger__menu {
+  width: 50px;
+  height: 50px;
+}
+
+.black__search__icon {
+  width: 25px;
+  height: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+
+nav {
+  background-color: #fde32b;
+}
+
+nav > ul > li {
+  position: relative;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: black;
+  width: 200px;
+  left: 0%;
+}
+
+nav ul li.has__submenu:hover > ul {
+  display: inherit;
+}
+
+.drop__down__links {
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 10px 0px 10px 10px;
+}
+
+.drop__down__links > a {
+  color: white;
+  text-decoration: none;
+}
+
+.drop__down__links:hover {
+  background-color: #fde32b;
+}
+
+.drop__down__links:hover a {
+  color: black;
+}
+
+.bottom__navigation {
+  width: 90%;
+  margin: auto;
+}
+
+.navigation__links {
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navigation__links:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown__icon {
+  height: 30px;
+  width: 30px;
+}
