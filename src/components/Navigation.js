@@ -87,7 +87,7 @@ function Navigation() {
           alt="King Hintsa TVET College Logo"
         />
       </div>
-      <nav>
+      <nav className="d-none d-xl-block">
         <ul class="d-xl-flex bottom__navigation">{menu}</ul>
       </nav>
     </>
