@@ -305,6 +305,66 @@ nav ul li.has__submenu:hover > ul {
   font-size: 18px;
 }
 
+.campuses__section {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 90px 0px;
+}
+
+.campuses__content {
+  width: 80%;
+  margin: auto;
+}
+
+.campuses__heading {
+  font-weight: bold;
+}
+
+.campus__cards {
+  text-align: start;
+  width: 30%;
+  background-color: #fde32b;
+  padding: 30px 20px;
+  height: fit-content;
+}
+
+.campus__image {
+  background-image: "./assets/nurse-man.jpg";
+}
+
+.footer__content {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.footer__row {
+  margin-right: 40px;
+}
+
+.footer__section {
+  background-color: #fde32b;
+}
+
+.footer__row__header {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer__row ul li {
+  font-size: 12px;
+}
+
+.footer__icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+}
+
+.footer__number {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .banner__year {
     font-size: 70px;
