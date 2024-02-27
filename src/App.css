@@ -274,7 +274,7 @@ nav ul li.has__submenu:hover > ul {
   align-items: center;
   background-color: white;
   position: absolute;
-  top: 90%;
+  top: 92%;
   left: 10%;
   width: 80%;
 }
@@ -282,6 +282,27 @@ nav ul li.has__submenu:hover > ul {
 .get__started__paragraph {
   font-size: 32px;
   font-weight: 200;
+}
+
+.programmes__section {
+  padding: 150px 100px;
+  background-color: #fde32b;
+  text-align: center;
+}
+
+.programmes__heading {
+  font-weight: bold;
+}
+
+.programme__image {
+  background-color: white;
+  border-radius: 50%;
+  padding: 35px 20px;
+}
+
+.programme__text {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
