@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 function Banner() {
   return (
@@ -34,10 +35,7 @@ function Banner() {
             <span className="banner__descriptions">Top Ranked Lecturers</span>
           </div>
         </div>
-        <div className="d-flex justify-content-between banner__button">
-          <span>Button</span>
-          <img src="./assets/arrow-button.svg" />
-        </div>
+        <Button />
         <div className="mt-3">
           <img src="./assets/play-filled.svg" />
           <span className="lorem__ipsum">Lorem ipsum </span>

@@ -170,6 +170,11 @@ nav ul li.has__submenu:hover > ul {
   font-size: 24px;
 }
 
+.banner__button:hover {
+  background-color: #fde32b;
+  cursor: pointer;
+}
+
 .lorem__ipsum {
   margin-left: 10px;
 }
@@ -200,6 +205,53 @@ nav ul li.has__submenu:hover > ul {
   -webkit-transform: rotate(-2.5deg);
   -ms-transform: rotate(-2.5deg);
   transform: rotate(-2.5deg);
+}
+
+.in__the__news__section {
+  background-color: #f2f2f2;
+  padding-bottom: 150px;
+}
+
+.in__the__news {
+  width: 80%;
+  margin: auto;
+}
+
+.in__the__news__heading__section {
+  text-align: center;
+}
+
+.in__the__news__heading {
+  font-weight: bold;
+}
+
+.news__card {
+  background-color: white;
+  width: 45%;
+  padding: 40px;
+}
+
+.news__card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.news__card__heading {
+  font-weight: bold;
+}
+
+.news__card__yellow {
+  background-color: #fde32b;
+  padding: 0 50px;
+}
+
+.description__yellow {
+  font-weight: bold;
+  text-align: center;
+}
+
+.right__arrow {
+  height: 30px;
+  width: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

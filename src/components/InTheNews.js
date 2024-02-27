@@ -1,9 +1,55 @@
 import React from "react";
+import news from "../data/news";
+import { nanoid } from "nanoid";
+import Button from "./Button";
 
 function InTheNews() {
+  const newsContent = news.map((newsCard) => (
+    <div
+      key={nanoid()}
+      className={`${
+        Object.keys(newsCard).length > 1
+          ? "news__card mt-5"
+          : "d-flex flex-column justify-content-center align-items-center news__card news__card__yellow mt-5"
+      }`}
+    >
+      {Object.keys(newsCard).length > 1 ? (
+        <>
+          <h5 className="news__card__heading">{newsCard.title}</h5>
+          <p className="text-secondary">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been
+          </p>
+          <div className="d-flex justify-content-center">
+            <Button />
+          </div>
+        </>
+      ) : (
+        <>
+          <h2 className="description__yellow">{newsCard.title}</h2>
+          <img className="right__arrow" src="./assets/right-arrow.svg" />
+        </>
+      )}
+    </div>
+  ));
   return (
     <div>
       <div class=" d-none d-md-block separator"></div>
+      <div className="in__the__news__section">
+        <div className="in__the__news">
+          <div className="in__the__news__heading__section">
+            <h3 className="in__the__news__heading">IN THE NEWS</h3>
+            <p className="w-75 mx-auto">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+          </div>
+          <div className="d-md-flex flex-wrap justify-content-between">
+            {newsContent}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
