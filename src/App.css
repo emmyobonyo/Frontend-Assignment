@@ -174,6 +174,34 @@ nav ul li.has__submenu:hover > ul {
   margin-left: 10px;
 }
 
+.separator {
+  position: relative;
+  padding-bottom: 5.5%;
+  overflow: hidden;
+}
+
+.separator:before,
+.separator:after {
+  content: "";
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+}
+
+.separator:after {
+  background: #f2f2f2;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+  -webkit-transform: rotate(-2.5deg);
+  -ms-transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .banner__year {
     font-size: 70px;
