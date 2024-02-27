@@ -42,7 +42,7 @@ function Banner() {
         </div>
       </div>
       <img
-        className="w-50 h-50"
+        className="banner__image"
         src="./assets/bannerImage.png"
         alt="banner image"
       />

@@ -121,6 +121,7 @@ nav ul li.has__submenu:hover > ul {
 .banner__section {
   width: 90%;
   margin: auto;
+  position: relative;
 }
 
 .banner__year {
@@ -229,6 +230,7 @@ nav ul li.has__submenu:hover > ul {
   background-color: white;
   width: 45%;
   padding: 40px;
+  height: 250px;
 }
 
 .news__card:hover {
@@ -241,7 +243,7 @@ nav ul li.has__submenu:hover > ul {
 
 .news__card__yellow {
   background-color: #fde32b;
-  padding: 0 50px;
+  cursor: pointer;
 }
 
 .description__yellow {
@@ -252,6 +254,15 @@ nav ul li.has__submenu:hover > ul {
 .right__arrow {
   height: 30px;
   width: 30px;
+}
+
+.banner__image {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 5%;
+  width: 900px;
+  height: 800px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -286,5 +297,17 @@ nav ul li.has__submenu:hover > ul {
     border: 3px solid black;
     font-weight: bold;
     font-size: 24px;
+  }
+
+  .banner__image {
+    width: 550px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .news__card {
+    width: 95%;
+    height: 330px;
   }
 }

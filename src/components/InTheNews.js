@@ -10,7 +10,7 @@ function InTheNews() {
       className={`${
         Object.keys(newsCard).length > 1
           ? "news__card mt-5"
-          : "d-flex flex-column justify-content-center align-items-center news__card news__card__yellow mt-5"
+          : "d-flex flex-column align-items-center justify-content-center news__card news__card__yellow mt-5"
       }`}
     >
       {Object.keys(newsCard).length > 1 ? (
@@ -38,14 +38,14 @@ function InTheNews() {
       <div className="in__the__news__section">
         <div className="in__the__news">
           <div className="in__the__news__heading__section">
-            <h3 className="in__the__news__heading">IN THE NEWS</h3>
+            <h3 className="in__the__news__heading pt-5 pt-md-0">IN THE NEWS</h3>
             <p className="w-75 mx-auto">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
           </div>
-          <div className="d-md-flex flex-wrap justify-content-between">
+          <div className="d-flex flex-column align-items-center flex-md-row flex-md-wrap justify-content-md-between">
             {newsContent}
           </div>
         </div>
