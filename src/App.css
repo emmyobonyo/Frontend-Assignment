@@ -303,6 +303,10 @@ nav ul li.has__submenu:hover > ul {
     width: 550px;
     height: 500px;
   }
+
+  .news__card {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
