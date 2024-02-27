@@ -2,21 +2,21 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="d-xl-flex justify-content-between banner__section">
+    <div className="d-none d-md-flex justify-content-between banner__section">
       <div className="mt-5 banner__left">
-        <div className="d-xl-flex justify-content-between">
+        <div className="d-md-flex justify-content-between">
           <div className="d-flex flex-column">
             <h3 className="banner__year">2022</h3>
             <p className="applications">APPLICATIONS</p>
           </div>
-          <div className="d-flex justify-content-center align-items-center mt-4 now__open p-5">
+          <div className="d-flex justify-content-center align-items-center mt-md-3 mt-4 now__open p-5">
             NOW OPEN
           </div>
         </div>
         <p className="banner__paragraph">
           Choose from our enrollment forms to join our college
         </p>
-        <div>
+        <div className="d-none d-xl-block">
           <div>
             <img className="checkmark" src="./assets/checkmark.svg" />
             <span className="banner__descriptions">

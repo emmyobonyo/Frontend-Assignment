@@ -136,7 +136,7 @@ nav ul li.has__submenu:hover > ul {
 
 .now__open {
   background-color: #fde32b;
-  height: 130px;
+  height: 140px;
   width: 150px;
   font-size: 30px;
   text-align: center;
@@ -172,4 +172,39 @@ nav ul li.has__submenu:hover > ul {
 
 .lorem__ipsum {
   margin-left: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner__year {
+    font-size: 70px;
+  }
+
+  .applications {
+    font-size: 26px;
+    margin-top: -15px;
+  }
+  .now__open {
+    background-color: #fde32b;
+    height: 85px;
+    width: 85px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px !important;
+  }
+  .banner__left {
+    width: 37%;
+  }
+
+  .banner__paragraph {
+    font-size: 12px;
+  }
+
+  .banner__button {
+    margin-top: 5px;
+    padding: 2px 8px;
+    width: 150px;
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: 24px;
+  }
 }
