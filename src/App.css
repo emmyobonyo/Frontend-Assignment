@@ -390,6 +390,38 @@ nav ul li.has__submenu:hover > ul {
   margin-left: 5px;
 }
 
+.statistics__section {
+  background-image: url("../public/assets/auditorium.jpg");
+}
+.statistics__content {
+  width: 90%;
+  margin: auto;
+}
+.statistics__numbers {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #fde32b;
+  color: black;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.statistics__paragraphs {
+  margin-top: -20px;
+}
+
+/* .statistics__students {
+  font-size: 60px;
+  padding: 60px 40px;
+} */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .banner__year {
     font-size: 70px;
