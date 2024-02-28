@@ -428,4 +428,8 @@ nav ul li.has__submenu:hover > ul {
     width: 95%;
     height: 330px;
   }
+
+  .campus__image {
+    height: 400px;
+  }
 }
