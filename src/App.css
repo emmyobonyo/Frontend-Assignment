@@ -62,6 +62,7 @@ nav {
 
 nav > ul > li {
   position: relative;
+  z-index: 10;
 }
 
 nav ul ul {
@@ -121,7 +122,6 @@ nav ul li.has__submenu:hover > ul {
 .banner__section {
   width: 90%;
   margin: auto;
-  position: relative;
 }
 
 .banner__year {
@@ -259,10 +259,9 @@ nav ul li.has__submenu:hover > ul {
 }
 
 .banner__image {
-  z-index: -1;
   position: absolute;
   right: 0;
-  top: 5%;
+  top: 30%;
   width: 900px;
   height: 800px;
 }
