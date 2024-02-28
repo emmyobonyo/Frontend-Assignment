@@ -21,7 +21,7 @@ function Programmes() {
             voluptatum laborum numquam blanditiis harum quisquam eius sed o
           </p>
         </div>
-        <div className="d-flex justify-content-between mt-5">
+        <div className="d-flex flex-column flex-md-row justify-content-between mt-5">
           {programmesOffered}
         </div>
       </div>

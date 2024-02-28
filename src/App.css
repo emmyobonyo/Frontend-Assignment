@@ -489,4 +489,8 @@ nav ul li.has__submenu:hover > ul {
   .footer__bottom {
     margin-top: 30px;
   }
+
+  .programmes__heading {
+    font-size: 30px;
+  }
 }

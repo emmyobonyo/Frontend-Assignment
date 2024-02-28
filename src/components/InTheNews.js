@@ -49,7 +49,7 @@ function InTheNews() {
             {newsContent}
           </div>
         </div>
-        <div className="get__started">
+        <div className="d-none d-md-flex get__started">
           <p className="get__started__paragraph">
             You have a vision. We can make it happen
           </p>
