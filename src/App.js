@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import InTheNews from "./components/InTheNews";
 import Programmes from "./components/Programmes";
 import Campuses from "./components/Campuses";
+import Statistics from "./components/Statistics";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <InTheNews />
       <Programmes />
       <Campuses />
+      <Statistics />
       <Footer />
     </div>
   );
