@@ -100,7 +100,7 @@ function Footer() {
             <span class="text-white fw-bold"> ThoughtCorp</span>
           </p>
           <div className="d-none d-md-flex justify-content-between banner__button">
-            <span>Apply Now</span>
+            <span>Apply</span>
             <img src="./assets/arrow-button.svg" />
           </div>
         </div>
