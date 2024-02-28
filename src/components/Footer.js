@@ -1,10 +1,11 @@
 import React from "react";
+import Button from "./Button";
 
 function Footer() {
   return (
     <div className="footer__section">
       <div className="footer__content">
-        <div className="d-flex">
+        <div className="d-flex-column d-md-flex">
           <div className="footer__row">
             <h6 className="footer__row__header">About Us</h6>
             <ul>
@@ -63,7 +64,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="d-flex justify-content-between mt-4">
+        <div className="d-flex-column d-md-flex justify-content-between mt-4">
           <div>
             <div className="d-flex">
               <img className="footer__icon" src="./assets/phone.svg" />
@@ -76,12 +77,31 @@ function Footer() {
               </h5>
             </div>
           </div>
-          <div>
-            <h5 className="d-inline footer__number">Connect with us</h5>
-            <div></div>
+          <div className="d-flex-column d-md-flex connect__with__us__section">
+            <h5 className="d-inline footer__connect">Connect with us:</h5>
+            <div>
+              <img
+                className="footer__connect__icons"
+                src="./assets/search.svg"
+              />
+              <img
+                className="footer__connect__icons"
+                src="./assets/facebook.svg"
+              />
+              <img
+                className="footer__connect__icons"
+                src="./assets/twitter.svg"
+              />
+            </div>
           </div>
         </div>
-        <div></div>
+        <div className="d-flex-column d-md-flex align-items-center justify-content-between footer__bottom">
+          <p class="mb-0 text-secondary copyrite__paragraph">
+            Copyright King Hinsta College 2022 | Designed and maintained by
+            <span class="text-white fw-bold"> ThoughtCorp</span>
+          </p>
+          <Button />
+        </div>
       </div>
     </div>
   );

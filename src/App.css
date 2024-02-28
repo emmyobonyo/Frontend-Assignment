@@ -375,8 +375,19 @@ nav ul li.has__submenu:hover > ul {
   margin-right: 15px;
 }
 
-.footer__number {
+.footer__number,
+.footer__connect {
   font-weight: bold;
+}
+
+.footer__connect {
+  margin-right: 10px;
+}
+
+.footer__connect__icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -431,5 +442,23 @@ nav ul li.has__submenu:hover > ul {
 
   .campus__image {
     height: 400px;
+  }
+
+  .footer__number,
+  .footer__connect {
+    font-size: 16px;
+  }
+
+  .footer__connect__icons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .footer__bottom {
+    margin-top: 30px;
+  }
+
+  .connect__with__us__section {
+    margin-top: 30px;
   }
 }
