@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 
 function Footer() {
   return (
@@ -96,11 +95,14 @@ function Footer() {
           </div>
         </div>
         <div className="d-flex-column d-md-flex align-items-center justify-content-between footer__bottom">
-          <p class="mb-0 text-secondary copyrite__paragraph">
+          <p class="mb-0 text-secondary">
             Copyright King Hinsta College 2022 | Designed and maintained by
             <span class="text-white fw-bold"> ThoughtCorp</span>
           </p>
-          <Button />
+          <div className="d-none d-md-flex justify-content-between banner__button">
+            <span>Apply Now</span>
+            <img src="./assets/arrow-button.svg" />
+          </div>
         </div>
       </div>
     </div>
