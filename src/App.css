@@ -320,16 +320,30 @@ nav ul li.has__submenu:hover > ul {
   font-weight: bold;
 }
 
+.campus__cards__section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
+}
+
 .campus__cards {
   text-align: start;
-  width: 30%;
+  margin: 0px 20px;
   background-color: #fde32b;
   padding: 30px 20px;
   height: fit-content;
 }
 
 .campus__image {
-  background-image: "./assets/nurse-man.jpg";
+  background-image: url("/public/assets/nurse-man.jpg");
+  margin: 0px 20px;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.campus__cards:hover,
+.campus__cards:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .footer__content {

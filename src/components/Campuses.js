@@ -1,12 +1,15 @@
 import React from "react";
 import campuses from "../data/campuses";
 import Button from "./Button";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 function Campuses() {
   const campuseCards = campuses.map((campus) => (
     <div
       className={
-        Object.keys(campus).length > 1 ? "campus__cards mt-5" : "campus__image"
+        Object.keys(campus).length > 1
+          ? "campus__cards mt-5"
+          : "d-flex justify-content-center align-items-end campus__image mt-5"
       }
     >
       {Object.keys(campus).length > 1 ? (
@@ -30,9 +33,9 @@ function Campuses() {
             consectutor. Lorem Ipsum dolor sit amet, consectutor
           </p>
         </div>
-        <div className="d-flex flex-wrap justify-content-between">
-          {campuseCards}
-        </div>
+        <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+          <Masonry>{campuseCards}</Masonry>
+        </ResponsiveMasonry>
       </div>
     </div>
   );
